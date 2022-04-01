@@ -1,0 +1,34 @@
+body{
+    background: rgb(17, 17, 17);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#description {
+    font-style: 20px;
+    color: white;
+    height: 50px;
+    text-shadow: 2px 2px 2px red;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 15px;
+    border: 4px solid rgb(32, 22, 22);
+    margin: 5px;
+}
